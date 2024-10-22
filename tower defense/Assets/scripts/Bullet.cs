@@ -1,53 +1,40 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    /*
-    [Header("references")]
-    [SerializeField] private Rigidbody2D rb;
-
-    [Header("Attributes")]
-    [SerializeField] private float bulletSpeed = 5f;
-    [SerializeField] private int bulletDamage = 1;
-
+    public float speed = 10f; // Speed of the bullet
     private Transform target;
 
-    public void SetTarget(Transform_target)
+    public void Seek(Transform _target)
     {
-        target = _target; 
+        target = _target;
     }
 
-
-    internal void SetTarget(Transform target)
-    {
-        throw new NotImplementedException();
-    }
-
-    private void FixedUpdate(){
-        if (!target) return;
-        Vector2 direction = (target.position - transform.position).normalized;
-        rb.velocity = direction * bulletSpeed;
-    }
-
-    private void OnCollisionEneter2D(Collision2D other) {
-        other.gameObject.GetComponent<health>().TakeDamage(bulletDamage);
-        Destroy(gameObject);
-    }
-
-
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        if (target == null)
+        {
+            Destroy(gameObject); // Destroy bullet if target is lost
+            return;
+        }
+
+        // Move bullet towards target
+        Vector2 direction = (Vector2)target.position - (Vector2)transform.position;
+        float distanceThisFrame = speed * Time.deltaTime;
+
+        if (direction.magnitude <= distanceThisFrame)
+        {
+            // If bullet reaches target
+            HitTarget();
+            return;
+        }
+
+        transform.Translate(direction.normalized * distanceThisFrame, Space.World);
     }
-    */
+
+    void HitTarget()
+    {
+        // Add your code to handle hitting the target (damage, effects, etc.)
+        Destroy(gameObject);
+    }
 }

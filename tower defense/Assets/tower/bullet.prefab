@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 3551373051461958166}
   - component: {fileID: 4330364159087517125}
   - component: {fileID: 1394150753235096718}
-  - component: {fileID: -5096942420928878450}
+  - component: {fileID: -6917214527208577986}
   m_Layer: 7
   m_Name: bullet
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.32, y: 1.34, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.31, y: 0.31, z: 0.31}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: 9a4275153ff2d1843be244f4a07550e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &-5096942420928878450
+--- !u!114 &-6917214527208577986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,9 +158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3937034017605847909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e3d92bf18142d41b24886747b62bd4, type: 3}
+  m_Script: {fileID: 11500000, guid: 282922e936e3a0b43bf8239c3681bb9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 7908333015501182839, guid: bc1647c59ae36e1488de0ca25a4c1869, type: 3}
-  speed: 5
-  rotateTowardsTarget: 1
+  speed: 10
