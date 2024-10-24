@@ -36,9 +36,9 @@ Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eers
 
 De build van je game bevat textures, sprites en sprite animations(bijv particles) die op de juiste manier zijn gebruikt en zorgen voor een goede afwerking van je game.  
 
-Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is.
+Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is
 
-![Textures Sprites](readmeVisuals/texturesSprites.gif)
+![2024-10-2422-28-42-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/084d7197-e825-4c40-8028-ec0c06bf4385)
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
