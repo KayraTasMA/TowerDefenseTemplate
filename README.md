@@ -1,11 +1,12 @@
-# TowerDefenseTemplate
-Dit is een template wat door jullie te gebruiken is voor het juist inleveren van alle producten voor de Towerdefense beroepsopdracht. **Verwijder uiteindelijk de template teksten!**
+# Monkey Tower Defense!
 
-Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
+Welkom bij het spel Monkey Tower Defense een leuk spel waar het doel is om apen te plaatsen die spugen op bananen.
 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
+![mygame](https://github.com/user-attachments/assets/1d934c02-0ebe-4f9f-89d3-00be085ac16a)
 
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
+
+![Deathscreen](https://github.com/user-attachments/assets/23290600-8d43-4b71-b188-55f6595768f9)
+
 
 
 ## Product 1: "DRY SRP Scripts op GitHub"
@@ -20,30 +21,21 @@ SRP:  SRP betekent dat de script maar een verantwoordelijkheid moet hebben. mijn
 [link naar script](https://github.com/KayraTasMA/TowerDefenseTemplate/blob/master/tower%20defense/Assets/scripts/SceneScripts/SceneSwitcher.cs)"*
 
 ## Product 2: "Projectmappen op GitHub"
-
-Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
+ 
 
 Dit is de [ROOT](https://github.com/KayraTasMA/TowerDefenseTemplate/tree/master/tower%20defense) folder van mijn unity project.
 
-Zorg dat deze verwijst naar je Develop branch.
 
-## Product 3: Build op Github
-
-Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eerst zijn verwijderd. Deze buildfiles upload je in je repository onder releases.  Bij eventuele afwijkingen moeten deze worden gedocumenteerd in de release. (Bijv controller nodig of spelen via netwerk etc..) 
-
+## Product 3: Build op Github 
+dit is de build van mij game 
 [Release](https://github.com/KayraTasMA/TowerDefenseTemplate/releases/tag/eindpresentatie)
 
 ## Product 4: Game met Sprites(animations) en Textures 
-
-De build van je game bevat textures, sprites en sprite animations(bijv particles) die op de juiste manier zijn gebruikt en zorgen voor een goede afwerking van je game.  
-
-Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is
-
+hier is een gif waar me sprites en textures worden gebruikt
 ![2024-10-2422-28-42-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/084d7197-e825-4c40-8028-ec0c06bf4385)
 
 ## Product 5: Issues met debug screenshots op GitHub 
-
-Zodra je bugs tegenkomt maak je een issue aan op github. In de issue omschrijf je het probleem en je gaat proberen via breakpoints te achterhalen wat het probleem is. Je maakt screenshot(s) van het debuggen op het moment dat je via de debugger console ziet wat er mis is. Deze screenshots met daarbij uitleg over het probleem en de bijhorende oplossing post je in het bijhorende github issue. 
+ 
 [Hier de link naar mijn issues](https://github.com/KayraTasMA/TowerDefenseTemplate/issues/1)
 
 ## Product 6: Game design met onderbouwing 
@@ -110,10 +102,7 @@ Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je rea
 [![example test video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
 
 ## Product 9: SCRUM planning inschatting 
-
-Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory d.m.v storypoints / zelf te bepalen eenheden. (bijv. Storypoints, Sizes of tijd) aan het begin van een nieuwe sprint update je deze inschatting per userstory. 
-
-Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
+hier is de link naar me trello
 
 [Link naar de openbare trello](https://trello.com/b/l91ZXLqZ/tower-defense)
 
