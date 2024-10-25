@@ -10,13 +10,14 @@ Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Pla
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
-Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van **"Don't Repeat Yourself (DRY)"** en **"Single Responsibility Principle"**.
-Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
+deze script telt voor DRY en voor SRP 
 
-Bijvoorbeeld:
+DRY:  DRY betekent dat code niet onnodig herhaald moet worden. in mijn script word er niks herhaalt en Elke functionaliteit wordt een keer gebruikt.
 
-*"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
-[link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
+
+SRP:  SRP betekent dat de script maar een verantwoordelijkheid moet hebben. mijn script zorgt ervoor dat de scene veranderd wanneer een object met de tag Enemy wordt gedetecteerd. en mijn script is niet afhankelijk van andere scripts
+
+[link naar script](https://github.com/KayraTasMA/TowerDefenseTemplate/blob/master/tower%20defense/Assets/scripts/SceneScripts/SceneSwitcher.cs)"*
 
 ## Product 2: "Projectmappen op GitHub"
 
