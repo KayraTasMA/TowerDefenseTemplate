@@ -48,43 +48,26 @@ Zodra je bugs tegenkomt maak je een issue aan op github. In de issue omschrijf j
 
 ## Product 6: Game design met onderbouwing 
 
-Je gebruikt een game design tool om je game design vast te leggen en te communiceren. Daarnaast onderbouw je de design keuzes ten aanzien van “playability” en “replayability” voor je game schriftelijk. 
 
-Voorbeeld van een one page design:
-![](https://external-preview.redd.it/48mnMpA0TbiihGo4HsJiWrJhK72xeTRwV2o70_AKilw.jpg?auto=webp&s=3a1ae18f0e4fba7a465643987cbe9cf409466e53)
+*  **mijn game bevat torens die kunnen schieten en mikken.** 
 
-Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit hebt gedaan.
+*Mijn torens kunnen schieten op enemies en hebben een specefieke range. dus wanneer er een enemy dichtbij komt dat ze dan pas kunnen schieten anders kunnen ze overal op de map op de enemies gaan schieten.*
 
-*  **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
+*  **mijn game bevat een enemy die een path kan volgen en die dood kan gaan.**  
 
-*Mijn torens hebben ook nog een f.o.v waardoor je pas gaan mikken als enemies in de buurt zijn. ook hebben mijn torens geen 360 graden view maar 90 graden waardoor het een extra uitdaging is voor de speler om de torens ook op de meest tactische manier te roteren.*
+*mijn game heeft een enemy die een path volgt en die na drie hits dood kan gaan ik heb gekozen voor drie hits voor wat uitdaging in het spel.*
 
-*  **Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
+*  **mijn game bevat een endless wave systeem.**
 
-*Mijn enemies bevatten 3 types: 
-1 snelle die ook snel dood gaat. echter als er veel snelle enemies zijn is de kans steeds groter dat ze bij hun doel komen omdat de torens maar 1 enemy tegelijk kan targetten. Het forceert de speler dus om veel goedkope torens te plaatsen.
-Ook is er een langzame gepantserde enemy. Deze kan eigenlijk alleen maar worden vernietigd door magische torens die zijn geupgrade. goedkope torens doen bijna geen schade. De speler moet dus een balans gaan zoeken tussen veel goedkope torens en upgraden van torens.
-Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de speler een extra nadeel heeft en de torens handmatig de deze healer moet laten targetten hierdoor wordt de speler gedwongen om actiever de game te spelen omdat anders geen enkele enemy meer dood gaat.*
+*mijn game heeft een endless wave systeem. dus de enemies kunnen oneidig lang door komen zodat je langer kan spelen.*
 
-*  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
+*  **mijn game bevat een health systeem voor de speler.** 
 
-*Onderbouwing hier...*
+*in mijn game heeft de speler een leven dus als een enemy op het einde komt ga je gelijk dood zodat er wat uitdaging in het spel is.*
 
-*  **Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
+*  **mijn game bevat een restart systeem.**
 
-*Onderbouwing hier...*
-
-*  **Een “resource” systeem waarmee je resources kunt verdienen waarmee je torens kunt kopen en .evt upgraden.**
-
-*Onderbouwing hier...*
-
-*  **Een “upgrade” systeem om je torens te verbeteren.**
-
-*Onderbouwing hier...*
-
-*  **Een “movement prediction” systeem waarmee je kan berekenen waar een toren heen moeten schieten om een bewegend object te kunnen raken. (Moeilijk)**
-
-*Onderbouwing hier...*
+*wanneer een enemy naar het einde komt ga je dood en kom je bij de death screen waar je een knop ziet om opniew te proberen dit herstart dan de game. dit zit er in zodat je nog een kans krijgt om te spelen.*
 
 ## Product 7: Class Diagram voor volledige codebase 
 
